@@ -11,7 +11,7 @@ import ReactDOM from "react-dom/client";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./commonResource/css/styles.css";
 import "bootstrap";
-import "../src/commonResource/js/custom.js"; // Ensure this path is correct
+import "./commonResource/js/custom.js"
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <BrowserRouter>
