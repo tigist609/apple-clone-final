@@ -8,6 +8,9 @@ import "./commonResource/js/bootstrap.js";
 import "./commonResource/js/custom.js";
 import { BrowserRouter } from "react-router-dom";
 import ReactDOM from "react-dom/client";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap'; // Bootstrap will auto use Popper internally
+
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <BrowserRouter>
